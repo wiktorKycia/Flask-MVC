@@ -17,11 +17,12 @@ Kod z warsztatów jakie prowadziłem na lekcji jako dodatek do prezentacji o MVC
 
 ### VS Code
 - Tworzymy nowy folder i go otwieramy w Visual Studio Code
-- Otwieramy termianal (skrót: `Ctrl + J`)
+- Otwieramy termianal (skrót: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>)
 - Wpisujemy `python -m venv venv` aby utworzyć wirtualne środowisko
 - otwieramy terminal bash, w tym celu trzeba kliknąć strzałeczkę koło plusa i wybrać `git bash`
+    - <img alt="gdzie" src="./bash_terminal.png">  
 - jak już jesteśmy w terminaly bash wpisujemy: `. venv\Scripts\activate`, aby aktywować środowisko wirtualne
 - następnie `pip install flask` by zainstalować flaska w środowisku wirtualnym projektu
 - od tego momentu można stworzyć strukturę projektu manualnie, a jak chcecie się pobawić komendami to macie:
-  	- `touch app.py`, `touch.model.py`, `mkdir templates`, `cd templates`, `touch index.html`, `cd ..`
+  	- `touch app.py`, `touch model.py`, `mkdir templates`, `cd templates`, `touch index.html`, `cd ..`
 - aby uruchomić aplikację (po ściągnięciu lub przekopiowaniu kodu) można uruchomić ją w terminalu `python app.py` 	
