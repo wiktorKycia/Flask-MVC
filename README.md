@@ -26,3 +26,16 @@ Kod z warsztatów jakie prowadziłem na lekcji jako dodatek do prezentacji o MVC
 - od tego momentu można stworzyć strukturę projektu manualnie, a jak chcecie się pobawić komendami to macie:
   	- `touch app.py`, `touch model.py`, `mkdir templates`, `cd templates`, `touch index.html`, `cd ..`
 - aby uruchomić aplikację (po ściągnięciu lub przekopiowaniu kodu) można uruchomić ją w terminalu `python app.py` 	
+
+
+# Jak uruchomić `debug mode`
+### PyCharm
+- Musimy zmodyfikować konfigurację projektu
+  - <img alt="jak" src="edit_configurations.png">
+- Wchodzimy w opcję zaznaczoną na zdjęciu
+- Klikamy w `Manage options`
+- W sekcji `Flask` zaznaczamy checkboxa `flask debug`
+
+### VS Code
+- musimy się upewnić, że metoda uruchamiająca app ma dobry argument
+  - `app.run(debug=True)`
