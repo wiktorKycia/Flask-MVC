@@ -5,6 +5,10 @@
         <title>To do app</title>
     </head>
     <body>
-
+        <ul>
+            {% for task in tasks %}
+                <li>{{ task }}</li>
+            {% endfor %}
+        </ul>
     </body>
 </html>
